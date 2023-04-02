@@ -1,7 +1,11 @@
 {
   "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "for-beginner": "For Beginner",
+  "order&shipping": "Order & Shipping",
+  "product-related": "Product Related",
+  "product-issue": "Product Issue",
+  "wholesale-reseller": "Wholesale/Reseller",
+  "aftersale": "Aftersales",
   "about": {
     "title": "About",
     "type": "page"

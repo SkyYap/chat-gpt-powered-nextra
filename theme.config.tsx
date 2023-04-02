@@ -196,7 +196,7 @@ const SearchModal = () => {
   // on open, show a modal with a form to enter a prompt
   return <div>
     {/* on click, open modal */}
-    <EmbedbaseSearchBar onClick={() => setOpen(true)} placeholder="Ask a question..." />
+    <EmbedbaseSearchBar onClick={() => setOpen(true)} placeholder="ChatGPT answer..." />
     <Modal open={open} onClose={onClose}>
       <form onSubmit={qa} className="nx-flex nx-gap-3">
         <EmbedbaseSearchBar value={prompt} onChange={(e) => setPrompt(e.target.value)} autoFocus />
@@ -334,7 +334,9 @@ const config: DocsThemeConfig = {
   editLink: {
     text: 'Edit this page on GitHub →'
   },
-  
+  sidebar: {
+    defaultMenuCollapseLevel: 1
+  },	
   search: {
     component: <SearchModal />
   }
