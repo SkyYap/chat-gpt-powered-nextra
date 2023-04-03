@@ -103,7 +103,7 @@ const Modal = ({ children, open, onClose }) => {
 
 
 const questions = [
-  'How do I get started with Nextra?',
+  'What electronics do I need for KIT & KM?',
 ]
 
 interface EmbedbaseSearchBarProps {
